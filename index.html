@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #078111;
+            background-color: #14a0aa;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -26,6 +26,10 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section:hover{
+            background-color: #d3eaec;
         }
 
         h1, h2, h3 {
@@ -42,13 +46,28 @@
         }
 
         footer {
-            background-color: #078111;
+            background-color: #14a0aa;
             color: #fff;
             text-align: center;
             padding: 1em;
             position: relative;
             bottom: 0;
             width: 100%;
+        }
+
+        a:hover{
+            color: rebeccapurple;
+        }
+
+        p{
+            font-size: large;
+        }
+
+        .side-bar{
+            position: fixed;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #5daeb4;
         }
     </style>
 </head>
@@ -63,6 +82,20 @@
         <p>X: <a href="https://twitter.com/D_man3012">D_man3012</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/thierry-manuel-tchoumkeu-djeumen-2b0b6523a/">Thierry Manuel Tchoumkeu Djeumen</a></p>
     </header>
+
+    <section class="side-bar">
+        <div class="project">
+            <p>Liens rapides:</p>
+            <ul>
+                <li><a href="#roundtable">Roundtable</a></li>
+                <li><a href="#anavrin">Anavrin</a></li>
+                <li><a href="#tic_tac_toe">Tic Tac Toe</a></li>
+                <li><a href="#flappy_bird">Flappy Bird</a></li>
+                <li><a href="#platformer">Jeu de platforme</a></li>
+                <li><a href="#solid">SOLID</a></li>
+            </ul>
+        </div>
+    </section>
 
     <section>
         <h2>À propos de moi</h2>
@@ -259,7 +292,7 @@
 
         <div class="project">
             <h3>Outils et IDE en maitrise</h3>
-            <h5>InteliJ, Pycharm, Visual Studio, Visual Studio Code, Microsoft Office, Miro, Figma, GitHub, CapCut, Visual Paradigm</h5>
+            <p>InteliJ, Pycharm, Visual Studio, Visual Studio Code, Microsoft Office, Miro, Figma, GitHub, CapCut, Visual Paradigm</p>
         </div>
     </section>
 
